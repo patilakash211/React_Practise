@@ -1,7 +1,6 @@
 import { useState } from "react"
 function App() {
   const [counter, setCounter] = useState(0);
-  // let counter = 5;
 
   const addValue = () =>{
     setCounter(counter + 1)
